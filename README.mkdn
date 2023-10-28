@@ -25,6 +25,15 @@ Building the source
 
 The source at DerpFest is well configured for building.
 
+**Setup environment variables:**
+```bash
+export KERNEL_LTO=thin
+export GLOBAL_THINLTO=true
+export USE_THINLTO_CACHE=true
+export USE_CCACHE=1
+export CCACHE_COMPRESS=1
+export CCACHE_MAXSIZE=50G
+```
 **Initiate the build with:**
 ```bash
 . build/envsetup.sh
