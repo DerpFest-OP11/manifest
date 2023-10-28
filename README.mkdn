@@ -15,9 +15,9 @@ To set up your build environment and sync DerpFest, please follow this guide: [L
 ```bash
 repo init -u https://github.com/DerpFest-OP11/manifest.git -b 13
 ```
-**Move the device xml to the local_manifests:**
+**Download the device xml into local_manifests:**
 ```bash
-mv .repo/manifests/salami.xml .repo/local_manifests/salami.xml
+mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/DerpFest-OP11/manifest/master/salami.xml -O .repo/local_manifests/salami.xml
 ```
 **Sync up with this command:**
 ```bash
