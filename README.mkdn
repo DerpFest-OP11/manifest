@@ -40,7 +40,7 @@ export CCACHE_MAXSIZE=50G
 ```
 **Prepare your device with:**
 ```bash
-lunch derp_$device-user
+lunch derp_salami-user
 ```
 **Then fire it off with:**
 ```bash
