@@ -21,18 +21,17 @@
              fetch="https://github.com/crdroidandroid"
              revision="13" />
 
-    <project name="android_device_oneplus_salami" path="device/oneplus/salami" remote="dfop11" revision="lineage-20" />
-    <project name="android_device_oneplus_sm8550-common" path="device/oneplus/sm8550-common" remote="dfop11" revision="lineage-20" />
+    <project name="android_device_oneplus_salami" path="device/oneplus/salami" remote="op11" revision="lineage-20" />
+    <project name="android_device_oneplus_sm8550-common" path="device/oneplus/sm8550-common" remote="op11" revision="lineage-20" />
 
-    <project name="android_kernel_oneplus_sm8550" path="kernel/oneplus/sm8550" remote="crdroid" revision="13.0" />
+    <project name="android_kernel_oneplus_sm8550" path="kernel/oneplus/sm8550" remote="lineage" revision="lineage-20" />
     <project name="android_kernel_oneplus_sm8550-devicetrees" path="kernel/oneplus/sm8550-devicetrees" remote="lineage" revision="lineage-20" />
-    <project name="android_kernel_oneplus_sm8550-modules" path="kernel/oneplus/sm8550-modules" remote="crdroid" revision="13.0" />
+    <project name="android_kernel_oneplus_sm8550-modules" path="kernel/oneplus/sm8550-modules" remote="lineage" revision="lineage-20" />
 
     <project name="android_hardware_oplus" path="hardware/oplus" remote="lineage" revision="lineage-20" />
 
     <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="TheMuppets" revision="lineage-20" />
     <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="TheMuppets" revision="lineage-20" />
-
 
 <!--  Derp Changes  -->
     <remove-project name="hardware_qcom-caf_common" /> <!--  Replaced  -->
