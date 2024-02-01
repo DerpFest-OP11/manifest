@@ -39,24 +39,4 @@
     <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="crdroid-gitlab" revision="14.0" />
     <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="crdroid-gitlab" revision="14.0" />
 
-    <!--  Lineage Changes  -->
-    <remove-project name="android_vendor_qcom_opensource_agm" /> <!--  Replaced  -->
-    <remove-project name="android_vendor_qcom_opensource_arpal-lx" /> <!--  Replaced  -->
-    <remove-project name="android_hardware_qcom_audio-ar" /> <!--  Replaced  -->
-    <remove-project name="android_hardware_qcom_display" /> <!--  Replaced  -->
-    <remove-project name="android_hardware_qcom_media" /> <!--  Replaced  -->
-    <remove-project name="hardware_qcom_audio" /> <!--  Replaced  -->
-    <remove-project name="hardware_qcom_display" /> <!--  Replaced  -->
-    <remove-project name="hardware_qcom_media" /> <!--  Replaced  -->
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
-    <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-
-    <remove-project name="vendor_qcom_opensource_audio-hal_st-hal" /> <!--  Replaced  -->
-    <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" groups="qcom,lahaina" />
 </manifest>
