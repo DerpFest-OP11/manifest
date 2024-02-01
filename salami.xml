@@ -37,7 +37,7 @@
 
     <project name="android_hardware_oplus" path="hardware/oplus" remote="lineage" revision="lineage-21" />
 
-    <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="crdroid-gitlab" revision="14.0" />
-    <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="crdroid-gitlab" revision="14.0" />
+    <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="TheMuppets" revision="lineage-21" />
+    <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="TheMuppets" revision="lineage-21" />
 
 </manifest>
