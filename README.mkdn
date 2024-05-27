@@ -38,6 +38,13 @@ export USE_CCACHE=1
 export CCACHE_COMPRESS=1
 export CCACHE_MAXSIZE=50G
 ```
+**Create signing keys**
+```bash
+subject='/C=US/ST=Ohio/L=Columbus/O=Android/OU=Android/CN=Android/emailAddress=cts@goolag.co.ck' 
+for x in releasekey platform shared media networkstack verity otakey testkey sdk_sandbox bluetooth; do \
+    ./development/tools/make_key vendor/derp/signing/keys/$x "$subject"; \
+done
+```
 **Initiate the build with:**
 ```bash
 . build/envsetup.sh
