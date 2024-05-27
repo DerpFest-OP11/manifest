@@ -17,7 +17,7 @@ repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 13
 ```
 **Download the device xml into local_manifests:**
 ```bash
-mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/DerpFest-OP11/manifest/master/salami.xml -O .repo/local_manifests/salami.xml
+mkdir .repo/local_manifests && wget https://raw.githubusercontent.com/DerpFest-OP11/manifest/13/salami.xml -O .repo/local_manifests/salami.xml
 ```
 **Sync up with this command:**
 ```bash
