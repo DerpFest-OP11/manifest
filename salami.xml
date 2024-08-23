@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="TheMuppets"
-            fetch="https://gitlab.com/the-muppets/"
+            fetch="https://github.com/TheMuppets/"
             sync-c="true"
             sync-tags="false" />
 
@@ -37,7 +37,10 @@
 
     <project name="android_hardware_oplus" path="hardware/oplus" remote="dfop11" revision="lineage-21" />
 
-    <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="crdroid-gitlab" revision="14.0" />
-    <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="crdroid-gitlab" revision="14.0" />
+    <remove-project name="vendor_qcom_opensource_audio-hal_st-hal-ar" />
+    <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" remote="lineage-op11" revision="lineage-21" />
+
+    <project name="proprietary_vendor_oneplus_salami" path="vendor/oneplus/salami" remote="TheMuppets" revision="lineage-21" />
+    <project name="proprietary_vendor_oneplus_sm8550-common" path="vendor/oneplus/sm8550-common" remote="TheMuppets" revision="lineage-21" />
 
 </manifest>
